@@ -1,6 +1,6 @@
 {
   "Routes": [
-    //"ProductAPI": "https://localhost:7000",
+    //"ProductAPI": "https://azuremangoservicesproductapi.azurewebsites.net",
     {
       "DownstreamPathTemplate": "/api/product",
       "DownstreamScheme": "https",
@@ -41,7 +41,7 @@
       }
     },
 
-    //"CouponAPI": "https://localhost:7001",
+    //"CouponAPI": "https://azuremangoservicescouponapi.azurewebsites.net",
     {
       "DownstreamPathTemplate": "/api/coupon",
       "DownstreamScheme": "https",
@@ -93,7 +93,7 @@
       }
     },
 
-    //"ShoppingCartAPI": "https://localhost:7003",
+    //"ShoppingCartAPI": "https://azuremangoservicesshoppingcartapi.azurewebsites.net",
     {
       "DownstreamPathTemplate": "/api/cart/GetCart/{id}",
       "DownstreamScheme": "https",
@@ -165,7 +165,7 @@
       }
     },
 
-    //"OrderAPI": "https://localhost:7004",
+    //"OrderAPI": "https://azuremangoservicesorderapi.azurewebsites.net",
     {
       "DownstreamPathTemplate": "/api/order/GetOrders?userId={id}",
       "DownstreamScheme": "https",
